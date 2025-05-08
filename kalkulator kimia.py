@@ -31,7 +31,7 @@ st.divider()
 
 # Fungsi perhitungan
 def hitung_ppm(massa_zat, volume_larutan):
-    return (massa_zat / volume_larutan) * 1_000_000
+    return (massa_zat / volume_larutan)
 
 def hitung_molaritas(mol_zat, volume_larutan):
     return mol_zat / volume_larutan
