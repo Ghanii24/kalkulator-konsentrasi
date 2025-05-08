@@ -54,7 +54,7 @@ if choice == "PPM (part per million)":
     
     if st.button("Hitung PPM"):
         ppm = hitung_ppm(massa_zat, volume_larutan)
-        st.success(f"Konsentrasi PPM: {ppm:.2f} ppm")
+        st.success(f"Konsentrasi PPM: {ppm:.2f} mg/L")
 
 elif choice == "Molaritas (mol/L)":
     st.subheader("Perhitungan Molaritas")
