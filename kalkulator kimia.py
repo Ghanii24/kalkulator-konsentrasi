@@ -49,7 +49,7 @@ def hitung_molaritas_dari_massa(massa_zat, mr, volume_larutan):
 # Input dan output berdasarkan pilihan
 if choice == "PPM (part per million)":
     st.subheader("Perhitungan PPM")
-    massa_zat = st.number_input("Massa zat terlarut (gram)", min_value=0.0, step=0.01)
+    massa_zat = st.number_input("Massa zat terlarut (mg)", min_value=0.0, step=0.01)
     volume_larutan = st.number_input("Volume larutan (liter)", min_value=0.0001, step=0.01)
     
     if st.button("Hitung PPM"):
