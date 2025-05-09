@@ -109,7 +109,7 @@ st.markdown(
         margin-top: 30px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     ">
-        <p>🧪✨ <b>Dibuat dengan cinta kimia oleh:</b></p>
+        <p>🧪✨ <b>Dibuat oleh kelompok:</b></p>
         <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
     </div>
     """,
