@@ -140,7 +140,7 @@ st.markdown(
     """
     <style>
     body {
-        background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?fit=crop&w=1950&q=80');
+        background-image: url('https://www.istockphoto.com/photo/skeleton-of-lucy-gm511210257-46458674?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=lucu');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -150,17 +150,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-import streamlit as st
-
-st.set_page_config(page_title="Background Solid", layout="centered")
-
-st.markdown("""
-<style>
-body {
-    background-color: #e0f7fa;
-}
-</style>
-""", unsafe_allow_html=True)
-
-st.title("🔷 Halaman dengan Warna Solid")
-st.markdown("Latar belakang ini menggunakan warna biru muda yang lembut.")
