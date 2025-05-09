@@ -92,4 +92,6 @@ elif choice == "Molaritas (dari massa & Mr)":
     if st.button("Hitung Molaritas dari Massa"):
         molaritas_massa = hitung_molaritas_dari_massa(massa_zat, mr, volume_larutan)
         st.success(f"Konsentrasi Molaritas: {molaritas_massa:.2f} mol/L")
-
+# FOOTER lucu
+st.markdown("---")
+st.markdown("<p style='text-align: center; color: grey;'>🐬 Dibuat oleh tim <b>LPK 2 Andika, Audrey, Maqdalene, Raihan, Rifa</b> yang haus ide & air 💡💧</p>", unsafe_allow_html=True)
