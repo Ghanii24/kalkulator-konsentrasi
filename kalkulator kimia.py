@@ -1,13 +1,13 @@
 import streamlit as st
 
-# Konfigurasi halaman
+# ==========Konfigurasi halaman==========
 st.set_page_config(
     page_title="Kalkulator Konsentrasi Larutan",
     page_icon="⚗️",
     layout="centered"
 )
 
-# Judul utama
+# ==========Judul utama==========
 st.title("⚗️ Kalkulator Konsentrasi Larutan 🧪")
 st.markdown("""
 Aplikasi ini membantu Anda menghitung berbagai jenis konsentrasi larutan:
@@ -21,7 +21,7 @@ Aplikasi ini membantu Anda menghitung berbagai jenis konsentrasi larutan:
 Silakan pilih jenis perhitungan dan masukkan data yang diperlukan. 📥
 """)
 
-# Pilihan jenis perhitungan
+# ==========Pilihan jenis perhitungan==========
 choice = st.selectbox("🔍 Pilih jenis konsentrasi yang ingin dihitung:", 
                       ["🟦 PPM (part per million)", 
                        "🧪 Molaritas (mol/L)", 
@@ -31,7 +31,7 @@ choice = st.selectbox("🔍 Pilih jenis konsentrasi yang ingin dihitung:",
 
 st.divider()
 
-# Fungsi perhitungan
+# ==========Fungsi perhitungan==========
 def hitung_ppm(massa_zat, volume_larutan):
     return (massa_zat / volume_larutan)
 
@@ -48,7 +48,7 @@ def hitung_molaritas_dari_massa(massa_zat, mr, volume_larutan):
     mol = massa_zat / mr
     return mol / volume_larutan
 
-# Input dan output berdasarkan pilihan
+# ==========Input dan output berdasarkan pilihan==========
 if "PPM" in choice:
     st.subheader("🟦 Perhitungan PPM")
     massa_zat = st.number_input("📦 Massa zat terlarut (mg)", min_value=0.0, step=0.01)
@@ -95,7 +95,7 @@ elif "Molaritas (dari massa & Mr)" in choice:
         molaritas_massa = hitung_molaritas_dari_massa(massa_zat, mr, volume_larutan)
         st.success(f"✅ Konsentrasi Molaritas: {molaritas_massa:.2f} mol/L")
 
-# Watermark dengan emotikon
+# ==========Watermark dengan emotikon==========
 st.markdown("---")
 st.markdown(
     """
