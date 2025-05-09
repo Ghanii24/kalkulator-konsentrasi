@@ -7,6 +7,21 @@ st.set_page_config(
     layout="centered"
 )
 
+# Tambahkan latar belakang gradasi & tema
+st.markdown(
+    """
+    <style>
+    body {
+        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    }
+    .css-1d391kg, .stApp {
+        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Judul utama
 st.title("⚗️💧 Kalkulator Konsentrasi Larutan 🧪")
 st.markdown("""
@@ -95,14 +110,26 @@ elif "Molaritas (dari massa & Mr)" in choice:
         molaritas_massa = hitung_molaritas_dari_massa(massa_zat, mr, volume_larutan)
         st.success(f"✅ Konsentrasi Molaritas: {molaritas_massa:.2f} mol/L")
 
-# Watermark dengan emotikon
+# Watermark dengan tema dan emotikon lengkap
 st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center; color: gray; font-size: 16px;'>
-        🧪✨ Dibuat dengan cinta kimia oleh: <br>
-        👩‍🔬 <b>Andika</b>, 👨‍🔬 <b>Audrey</b>, 🧑‍🔬 <b>Maqdalene</b>, 👩‍🔬 <b>Raihan</b>, 👨‍🔬 <b>Rifa</b> <br>
-        🔬🤝🌟 #TimKimiaHebat
+    <div style='
+        text-align: center; 
+        background-color: #e6f2ff;
+        border-radius: 12px;
+        padding: 10px;
+        color: #333;
+        font-size: 16px;
+        margin-top: 30px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    '>
+        🧪✨ Dibuat dengan cinta kimia oleh:<br>
+        👩‍🔬 <b>Andika</b> • 👨‍🔬 <b>Audrey</b> • 🧑‍🔬 <b>Maqdalene</b> • 👩‍🔬 <b>Raihan</b> • 👨‍🔬 <b>Rifa</b><br>
+        🚀 Kolaborasi • 🔬 Eksperimen • 💡 Ilmu Pengetahuan
     </div>
-    """, unsafe_allow_html=True
+    """,
+    unsafe_allow_html=True
+)
+
 )
