@@ -130,3 +130,20 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+import streamlit as st
+
+# Konfigurasi halaman
+st.set_page_config(page_title="Halaman Berwarna", layout="centered")
+
+# CSS untuk background berwarna
+st.markdown("""
+    <style>
+    body {
+        background-color: #f0f8ff; /* Ganti warna di sini */
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Konten halaman
+st.title("🎨 Selamat Datang!")
+st.markdown("Ini adalah halaman dengan **background berwarna biru muda** 💙.")
