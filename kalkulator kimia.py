@@ -146,4 +146,4 @@ st.markdown("""
 
 # Konten halaman
 st.title("🎨 Selamat Datang!")
-st.markdown("Ini adalah halaman dengan **background berwarna biru muda** 💙.")
+st.markdown("Ini adalah halaman dengan **background berwarna kuning cerah**.")
