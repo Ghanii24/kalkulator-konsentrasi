@@ -113,7 +113,7 @@ st.markdown(
     """
     <div style="
         text-align: center; 
-        background-color: #f5f5f5;
+        background-color: #e6f2ff;
         border-radius: 12px;
         padding: 10px;
         color: #000;
