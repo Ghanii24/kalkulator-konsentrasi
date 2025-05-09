@@ -130,23 +130,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-import streamlit as st
-
-# Konfigurasi halaman
-st.set_page_config(page_title="Halaman dengan Background", layout="centered")
-
-# Tambahkan CSS untuk background gambar
-st.markdown(
-    """
-    <style>
-    body {
-        background-image: url('https://www.istockphoto.com/photo/skeleton-of-lucy-gm511210257-46458674?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=lucu');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
