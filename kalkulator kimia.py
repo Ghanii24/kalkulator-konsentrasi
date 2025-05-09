@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('hhttps://id.pngtree.com/freebackground/drawing-the-chemical-theme-artwork-organic-chemical-photo_8328553.html.jpg');
+                    url('hhttps://id.pngtree.com/freebackground/drawing-the-chemical-theme-artwork-organic-chemical-photo_8328553.html');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
