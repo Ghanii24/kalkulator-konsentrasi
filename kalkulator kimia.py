@@ -14,7 +14,7 @@ st.markdown("""
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        color: black !important;
+        color: purple !important;
     }
     </style>
     """, unsafe_allow_html=True)
