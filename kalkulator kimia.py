@@ -130,3 +130,27 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+import streamlit as st
+
+# Konfigurasi halaman
+st.set_page_config(page_title="Halaman dengan Background", layout="centered")
+
+# Tambahkan CSS untuk background gambar
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Konten halaman
+st.title("🎨 Selamat Datang di Website Kami!")
+st.markdown("Ini adalah contoh tampilan dengan **background gambar**.")
