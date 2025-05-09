@@ -125,7 +125,7 @@ st.markdown(
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     '>
         🧪✨ Dibuat oleh kelompok:<br>
-        👩‍🔬 <b>Andika</b> • 👨‍🔬 <b>Audrey</b> • 🧑‍🔬 <b>Maqdalene</b> • 👩‍🔬 <b>Raihan</b> • 👨‍🔬 <b>Rifa</b><br>
+        🧑‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 🧑‍🔬 <b>Maqdalene</b> • 🧑‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b><br>
     </div>
     """,
     unsafe_allow_html=True
