@@ -124,7 +124,7 @@ st.markdown(
         margin-top: 30px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     '>
-        🫂✨ Dibuat oleh kelompok:<br>
+        ✨ Dibuat oleh kelompok:<br>
         🧑‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 🧑‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b><br>
     </div>
     """,
