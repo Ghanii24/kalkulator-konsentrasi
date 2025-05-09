@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://img.freepik.com/premium-photo/medical-science-laboratory-concept-virus-bacteria-research_207634-221.jpg?w=1380');
+                    url('http://img.freepik.com/free-photo/blue-latex-gloves-holding-plastic-bottle-pouring-transparent-liquid_273609-13624.jpg?t=st=1746776280~exp=1746779880~hmac=8f853b031649b7a5bbce36dee80969e8a7211941c57ed7f27e43cd0aefea1ca6&w=1380');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
