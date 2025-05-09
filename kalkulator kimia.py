@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://www.freepik.com/pikaso/ai-image-generator?prompt=Three%20hooded%20figures%20walking%20through%20a%20magical%20forest%20with%20glowing%20mushrooms%20and%20trees%20that%20are%20illuminated#from_element=home_inspired.jpg');
+                    url('https://www.freepik.com/free-ai-image/donuts-air-pink-background-ai-generated-image_94438209.htm#fromView=keyword&page=1&position=0&uuid=7db73b88-f3d0-4f13-83a2-490be6bdf473&from_element=categories_trends&query=Donut');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
