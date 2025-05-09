@@ -120,7 +120,7 @@ st.markdown(
         border-radius: 12px;
         padding: 10px;
         color: #333;
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 30px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     '>
