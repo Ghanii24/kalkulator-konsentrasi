@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://img.freepik.com/free-photo/donuts-air-pink-background-ai-generated-image_268835-6835.jpg?t=st=1746775419~exp=1746779019~hmac=c637e20852cf9d8f4e38c97dca0d3d101a80175b9b16829d196a38792ee094da&w=1380');
+                    url('https://img.freepik.com/premium-photo/medical-science-laboratory-concept-virus-bacteria-research_207634-221.jpg?w=1380');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
