@@ -3,7 +3,7 @@ import streamlit as st
 # Konfigurasi halaman
 st.set_page_config(
     page_title="⚗️Kalkulator Konsentrasi Larutan",
-    page_icon="🧪",
+    page_icon="⚗️",
     layout="centered"
 )
 
