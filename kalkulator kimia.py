@@ -12,13 +12,14 @@ st.markdown(
     """
     <style>
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        heigh: 100vh;
-        background: url('image/prehistoric-1142403_1280.jpg') no-repeat center center fixed;
-        background-size: cover;
-        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    }
+    .css-1d391kg, .stApp {
+        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
 
 # Judul utama
 st.title("⚗️ Kalkulator Konsentrasi Larutan 🧪")
