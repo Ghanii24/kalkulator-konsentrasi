@@ -20,6 +20,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
+)
 
 # Judul utama
 st.title("⚗️ Kalkulator Konsentrasi Larutan 🧪")
