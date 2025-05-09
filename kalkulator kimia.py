@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://pixabay.com/id/illustrations/kimia-sekolah-berwarna-botol-3d-740453/.jpg');
+                    url('hhttps://id.pngtree.com/freebackground/drawing-the-chemical-theme-artwork-organic-chemical-photo_8328553.html.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
