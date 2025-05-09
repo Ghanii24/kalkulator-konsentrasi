@@ -2,8 +2,7 @@ import streamlit as st
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="⚗️ Kalkulator Konsentrasi Larutan",
-    page_icon="🧪",
+    page_title="⚗️ Kalkulator Konsentrasi Larutan 🧪",
     layout="centered"
 )
 
@@ -120,7 +119,7 @@ st.markdown(
         border-radius: 12px;
         padding: 10px;
         color: #333;
-        font-size: 10px;
+        font-size: 16px;
         margin-top: 30px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     '>
