@@ -139,7 +139,7 @@ st.set_page_config(page_title="Halaman Berwarna", layout="centered")
 st.markdown("""
     <style>
     body {
-        background-color: #f0f8ff; /* Ganti warna di sini */
+        background-color: fff9c4; /* Ganti warna di sini */
     }
     </style>
 """, unsafe_allow_html=True)
