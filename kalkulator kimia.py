@@ -150,7 +150,17 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+import streamlit as st
 
-# Konten halaman
-st.title("🎨 Selamat Datang di Website Kami!")
-st.markdown("Ini adalah contoh tampilan dengan **background gambar**.")
+st.set_page_config(page_title="Background Solid", layout="centered")
+
+st.markdown("""
+<style>
+body {
+    background-color: #e0f7fa;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.title("🔷 Halaman dengan Warna Solid")
+st.markdown("Latar belakang ini menggunakan warna biru muda yang lembut.")
