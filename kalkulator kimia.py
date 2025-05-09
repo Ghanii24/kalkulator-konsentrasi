@@ -99,10 +99,20 @@ elif "Molaritas (dari massa & Mr)" in choice:
 st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center; color: gray; font-size: 16px;'>
-        🧪✨ Dibuat dengan cinta kimia oleh: <br>
-        👩‍🔬 <b>Andika</b>, 👨‍🔬 <b>Audrey</b>, 🧑‍🔬 <b>Maqdalene</b>, 👩‍🔬 <b>Raihan</b>, 👨‍🔬 <b>Rifa</b> <br>
-        🔬🤝🌟 #TimKimiaHebat
+    <div style="
+        text-align: center; 
+        background-color: #e6f2ff;
+        border-radius: 12px;
+        padding: 10px;
+        color: #000;
+        font-size: 16px;
+        margin-top: 30px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    ">
+        <p>🧪✨ <b>Dibuat dengan cinta kimia oleh:</b></p>
+        <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 🧑‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
+        <p>🚀 Kolaborasi • 🔬 Eksperimen • 💡 Ilmu Pengetahuan</p>
     </div>
-    """, unsafe_allow_html=True
+    """,
+    unsafe_allow_html=True
 )
