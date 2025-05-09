@@ -110,8 +110,7 @@ st.markdown(
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     ">
         <p>🧪✨ <b>Dibuat dengan cinta kimia oleh:</b></p>
-        <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 🧑‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
-        <p>🚀 Kolaborasi • 🔬 Eksperimen • 💡 Ilmu Pengetahuan</p>
+        <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
     </div>
     """,
     unsafe_allow_html=True
