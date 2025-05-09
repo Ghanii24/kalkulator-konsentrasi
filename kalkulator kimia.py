@@ -12,15 +12,13 @@ st.markdown(
     """
     <style>
     body {
-        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
-    }
-    .css-1d391kg, .stApp {
-        background: linear-gradient(to bottom, #f0f8ff, #ffffff);
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        heigh: 100vh;
+        background: url('image/prehistoric-1142403_1280.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
 
 # Judul utama
 st.title("⚗️ Kalkulator Konsentrasi Larutan 🧪")
@@ -130,20 +128,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-import streamlit as st
-
-# Konfigurasi halaman
-st.set_page_config(page_title="Halaman Berwarna", layout="centered")
-
-# CSS untuk background berwarna
-st.markdown("""
-    <style>
-    body {
-        background-color: fff9c4; /* Ganti warna di sini */
-    }
-    </style>
-""", unsafe_allow_html=True)
-
-# Konten halaman
-st.title("🎨 Selamat Datang!")
-st.markdown("Ini adalah halaman dengan **background berwarna kuning cerah**.")
