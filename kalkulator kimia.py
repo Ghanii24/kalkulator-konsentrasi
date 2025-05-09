@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('.jpg');
+                    url('https://www.freepik.com/pikaso/ai-image-generator?prompt=Three%20hooded%20figures%20walking%20through%20a%20magical%20forest%20with%20glowing%20mushrooms%20and%20trees%20that%20are%20illuminated#from_element=home_inspired.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
