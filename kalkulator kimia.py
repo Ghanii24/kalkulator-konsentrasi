@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 # Judul utama
-st.title("⚗️💧 Kalkulator Konsentrasi Larutan 🧪")
+st.title("⚗️ Kalkulator Konsentrasi Larutan 🧪")
 st.markdown("""
 Aplikasi ini membantu Anda menghitung berbagai jenis konsentrasi larutan:
 
