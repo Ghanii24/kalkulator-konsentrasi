@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://img.freepik.com/free-vector/flat-style-science-lab-with-elements_23-2148475301.jpg?t=st=1746859727~exp=1746863327~hmac=67255ee1348b5398af7e95ea1c0165ff572ad101adeedd7330b1b6a4b90001ab&w=826');
+                    url('https://img.freepik.com/free-vector/flat-chemistry-colorful-background_23-2148157410.jpg?t=st=1746859967~exp=1746863567~hmac=ce2da5b06a727c4bf569022486de91e2c7259f6d870afcf2b3408406af64f5d9&w=826');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
