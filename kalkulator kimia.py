@@ -10,7 +10,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                    url('https://img.freepik.com/free-vector/flat-chemistry-colorful-background_23-2148157410.jpg?t=st=1746859967~exp=1746863567~hmac=ce2da5b06a727c4bf569022486de91e2c7259f6d870afcf2b3408406af64f5d9&w=826');
+                    url('https://img.freepik.com/free-photo/side-view-hand-pouring-substance_23-2149731486.jpg?t=st=1746860017~exp=1746863617~hmac=f818fce0db537a021c6c9c2795193a245bf11bdb8deb3535c440fc783e29e887&w=1380');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
