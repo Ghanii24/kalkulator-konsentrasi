@@ -111,14 +111,17 @@ elif "Molaritas (dari massa & Mr)" in choice:
 st.markdown(
     """
     <div style="
-        text-align: left; 
+        position: relative;
+        left: 0;
+        width: 100%;
         background-color: white;
         border-radius: 12px;
-        padding: 15px;
+        padding: 15px 25px;
         color: #333333;
         font-size: 16px;
         margin-top: 30px;
         box-shadow: 2px 2px 12px rgba(0,0,0,0.08);
+        text-align: left;
     ">
         <p>🧪✨ <b>Dibuat oleh kelompok:</b></p>
         <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
