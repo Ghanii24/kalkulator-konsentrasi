@@ -20,7 +20,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # ==========Judul utama==========
-st.title("⚗️Kalkulator Konsentrasi Larutan🧪")
+st.title("⚗️ Kalkulator Konsentrasi Larutan")
 st.markdown("""
 Aplikasi ini membantu Anda menghitung berbagai jenis konsentrasi larutan:
 
@@ -117,7 +117,7 @@ st.markdown(
         border-radius: 12px;
         padding: 10px;
         color: #000;
-        font-size: 16px;
+        font-size: 12px;
         margin-top: 30px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
     ">
