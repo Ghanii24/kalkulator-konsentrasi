@@ -123,7 +123,8 @@ st.markdown(
         box-shadow: 2px 2px 12px rgba(0,0,0,0.08);
         text-align: left;
     ">
-        <p>🧪✨ <b>Dibuat oleh kelompok:</b></p> • <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
+        <p>🧪✨ <b>Dibuat oleh kelompok:</b></p>
+        <p>👨‍🔬 <b>Andika</b> • 👩‍🔬 <b>Audrey</b> • 👩‍🔬 <b>Maqdalene</b> • 👨‍🔬 <b>Raihan</b> • 👩‍🔬 <b>Rifa</b></p>
     </div>
     """,
     unsafe_allow_html=True
